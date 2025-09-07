@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: #f3e5d7;
+}
+
+div{
+    background-color: #ffff;
+    max-width: 836px;
+    margin-inline: auto;
+    margin-block: 64px;
+    padding: 40px;
+    border-radius: 24px;
+}
+
+img{
+    width: 310px;
+    height: 400px;
+ }
