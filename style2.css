@@ -25,7 +25,7 @@ body{
 
 div{
     background-color: #ffff;
-    max-width: 836px;
+    max-width: 480px;
     margin-inline: auto;
     margin-block: 48px;
     padding: 24px;
@@ -33,7 +33,7 @@ div{
     display: inline-block;
     float: inline-start;
     margin-left: auto;
-    padding: auto;
+    
     margin: 4rem;
 
 }
