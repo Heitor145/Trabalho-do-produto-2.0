@@ -1,23 +1,43 @@
 h1{
-    background-color: white;
-    text-align: center;
-    border-radius: 7px;
+    background-color: white;  /* Define o fundo branco para o título (h1)*/
+    text-align: center;         /* Alinha o texto do título ao centro da linha.*/
+    border-radius: 7px;         /* Arredonda os cantos do fundo do h1 com raio de 7 pixels (deixando o bloco do título com bordas levemente curvas).*/
 }
 
 body{
-    background-color: #f3e5d7;
+    background-color: #f3e5d7;/*Define uma cor de fundo geral da página.
+    Esse tom (#f3e5d7) é um bege claro ou tom pastel, geralmente usado para deixar o site mais suave/aconchegante.*/
 }
 
 div{
     background-color: #ffff;
-    max-width: 836px;
-    margin-inline: auto;
-    margin-block: 64px;
-    padding: 40px;
+    max-width: 836px;/*Limita a largura máxima da div a 836 pixels, mesmo em telas maiores.*/
+    margin-inline: auto;/*Centraliza a div horizontalmente na página.*/
+    margin-block: 64px;/*Adiciona 64px de margem acima e abaixo da div (espaço vertical).*/
+    padding: 40px;/*Adiciona espaço interno de 40px entre o conteúdo da div e suas bordas.*/
     border-radius: 24px;
 }
 
 img{
-    width: 310px;
-    height: 400px;
+    width: 310px;/*Define a largura da imagem como 310 pixels.*/
+    height: 400px;/*Define a altura da imagem como 400 pixels.*/
  }
+
+ a{
+    display: block;
+    background-color: (--normal);
+    margin-bottom: 16px;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px;
+    text-align: center;
+}
+
+a:hover{
+    background-color: blue;
+    color: black;
+    transition: 0.4s;
+}

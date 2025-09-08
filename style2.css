@@ -1,16 +1,16 @@
 body {
-    font-family: Proxima Nova, -apple-system, Roboto, Arial, sans-serif;
+    font-family: Proxima Nova, -apple-system, Roboto, Arial, sans-serif;/*Define a família de fontes usada no corpo do site.*/
 
 }
 
-:root{
+:root{                  /*permite definir variáveis CSS globais*/
     --normal: #3483fa;
     --click: #5698fc;
     --normal-carinho: 
 }
 
 .span-div2-preço{
-    display: flex;
+    display: flex;/*Usa Flexbox, que ajuda a alinhar elementos internos horizontalmente.*/
     font-size: 36px;
 }
 
@@ -20,7 +20,7 @@ img{
 }
 
 body{
-    background: rgba(0, 0, 0, .1);
+    background: black;
 }
 
 div{
@@ -33,7 +33,7 @@ div{
     display: inline-block;
     float: inline-start;
     margin-left: auto;
-    padding: 20px  50px;
+    padding: auto;
     margin: 4rem;
 
 }
